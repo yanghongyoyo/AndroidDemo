@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shake_bg"
+    tools:context="com.example.administrator.mystudent.ShakeShake.ShakeActivity">
+
+    <ImageView
+        android:id="@+id/text_shake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shake_text"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/iv_shake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shake_img"
+        android:paddingTop="200dp"
+        android:layout_alignTop="@+id/text_shake"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="82dp" />
+</RelativeLayout>

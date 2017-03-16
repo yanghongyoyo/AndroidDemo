@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custombar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIMould.UIMouldActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是什么"/>
+
+    <com.example.administrator.mystudent.UIMould.TopBar
+        android:id="@+id/myTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        custombar:leftBackground="@android:color/holo_blue_light"
+        custombar:leftText="返回"
+        custombar:leftTextColor="@android:color/black"
+        custombar:rightBackground="@android:color/holo_blue_light"
+        custombar:rightText="更多"
+        custombar:rightTextColor="@android:color/black"
+        custombar:titleText="标题"
+        custombar:titleColor="@android:color/black"
+        custombar:titleSize="18sp" >
+    </com.example.administrator.mystudent.UIMould.TopBar>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="titleText" format="string"/>
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <attr name="leftTextColor" format="reference|color" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="reference|color" />
+    </declare-styleable>
+
+    <!--自定义进度条属性的声明-->
+    <attr name="progress_unreach_color" format="color"/>
+    <attr name="progress_unreach_height" format="dimension"/>
+    <attr name="progress_reach_color" format="color"/>
+    <attr name="progress_reach_height" format="dimension"/>
+    <attr name="progress_text_color" format="color"/>
+    <attr name="progress_text_size" format="dimension"/>
+    <attr name="progress_text_offset" format="dimension"/>
+
+    <!--自定义进度条属性的使用-->
+    <declare-styleable name="UserProcessBarView">
+        <attr name="progress_unreach_color"/>
+        <attr name="progress_unreach_height"/>
+        <attr name="progress_reach_color"/>
+        <attr name="progress_reach_height"/>
+        <attr name="progress_text_color"/>
+        <attr name="progress_text_size"/>
+        <attr name="progress_text_offset"/>
+
+    </declare-styleable>
+</resources>

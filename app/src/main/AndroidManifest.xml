@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.mystudent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UIMould.UIMouldActivity" />
+        <activity android:name=".AsyncTaskLoadData.AsyncTaskLoadDataActivity" />
+        <activity android:name=".AccessServer.AccessServiceActivity" />
+        <activity android:name=".XUtils.TestUtilsActivity" />
+        <activity android:name=".PropertyAnimation.PropertyAnimationActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".VolleyTest.VolleyActivity" />
+        <activity android:name=".WebView.WebViewActivity" />
+        <activity android:name=".GetLocation.GetLocationActivity" />
+        <activity android:name=".surfaceView.TestSufaceViewActivity" />
+        <activity android:name=".MoreClick.MoreClickActivity" />
+        <activity android:name=".UserProgressBar.UserProcessBarActivity" />
+        <activity android:name=".Notification.NotificationActivity" />
+        <activity android:name=".DownloadNotification.Main2Activity" />
+        <activity android:name=".ShakeShake.ShakeActivity" />
+        <activity android:name=".net.NetActivity" />
+        <activity
+            android:name=".Egg.EggActivity"
+            android:label="@string/title_activity_egg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".downloadManager.DownLoadActivity" />
+        <activity android:name=".ExpandableListView.ExpandableListViewActivity" />
+        <activity android:name=".MyView.MyViewActivity" />
+        <activity android:name=".ButtonMove.ButtonMoveActivity"></activity>
+    </application>
+
+</manifest>
